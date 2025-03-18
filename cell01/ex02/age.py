@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 real_age = 17
 a = 42
 my_age = (a + real_age)

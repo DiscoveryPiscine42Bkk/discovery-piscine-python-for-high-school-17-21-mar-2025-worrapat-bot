@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def name():
 
     FirstName = input("Hey, what's your frist name? : ")
