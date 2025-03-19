@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-password = input(int(""))
+
+password = input(str(" "))
 
 if password == "Python is awesome":
     print("ACCESS GRANTED")

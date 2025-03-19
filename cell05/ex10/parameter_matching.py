@@ -1,11 +1,17 @@
-user_input = input("")
+#!/usr/bin/env python3
 
-if user_input == ("Hello"):
-    print("")
-    print("Good job")
+import sys
 
-elif user_input == (""):
-    print("none")
+if len(sys.argv) ==2:
+    match = (sys.argv[1])
+    user_input = input("What was the parameter? ")
+    
+    if user_input == match:
+         print("Good job!")
+
+    else:
+        print("Nope, sorry...")
 
 else:
-    print("Nope, sorry...")
+     print("none")
+
