@@ -12,5 +12,5 @@ original_array = [2, 8, 9, 48, 8, 22, -12, 2]
 new_array = [i+2 for i in original_array]
 c = [i for i in new_array if i > 5]
 result = play_with_arrays(c)
-
+print(original_array)
 print(result)

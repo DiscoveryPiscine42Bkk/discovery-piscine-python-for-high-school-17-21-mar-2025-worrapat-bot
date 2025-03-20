@@ -8,6 +8,6 @@ else:
      Text = sys.argv[1:]
      Text.reverse()
 
-for str in Text:
-        print(str)
+     for str in Text:
+          print(str)
  

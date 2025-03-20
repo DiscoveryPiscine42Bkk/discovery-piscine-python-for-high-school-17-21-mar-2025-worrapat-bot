@@ -2,14 +2,18 @@
 
 import sys
 
-if len(sys.argv)>0:
+if len(sys.argv)>1:
+    
+    #correct all now
     num = len(sys.argv)-1
     print(f"parameters: {num}")
     
+    
     Text = sys.argv[1:]
-    print(Text)
+    
     for i in  Text:
-        print()
+        numText = (len(i))
+        print(i, numText)
 
 else:
     print("none")
